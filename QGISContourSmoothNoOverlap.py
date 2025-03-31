@@ -9,7 +9,7 @@ User options
 """
 
 #Variable assignment
-contourLayer     = "C:/Users/rwilson/OneDrive - Kingborough Council/Documents/Projects/Alans Tasks/Contour Smoothing/TestCont.gpkg"
+contourLayer     = "C:/Temp/TestContours.gpkg"
 
 #Options for compressing the images, ZSTD has the best speed but LZW is the most compatible
 compressOptions  = 'COMPRESS=ZSTD|NUM_THREADS=ALL_CPUS|PREDICTOR=1|ZSTD_LEVEL=1|BIGTIFF=IF_SAFER|TILED=YES'
